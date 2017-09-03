@@ -24,7 +24,7 @@ class PiExifAsset extends AssetBundle
      */
     public function init()
     {
-        $this->setSourcePath('@vendor/kartik-v/bootstrap-fileinput');
+        $this->setSourcePath('@vendor/lialin/bootstrap-fileinput');
         $this->setupAssets('js', ['js/plugins/piexif']);
         parent::init();
     }
